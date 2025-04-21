@@ -1,0 +1,5 @@
+/Users/nekrutnikolai/git/RotorRascal/software/build/_deps/picotool/picotool
+/Users/nekrutnikolai/git/RotorRascal/software/build/_deps/picotool/picotoolTargets.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/_deps/picotool/picotoolTargets-release.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/_deps/picotool/picotoolConfig.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/_deps/picotool/picotoolConfigVersion.cmake

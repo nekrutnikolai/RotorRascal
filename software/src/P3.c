@@ -48,19 +48,20 @@
 #define RADIO_RX 9
 
 // controller
- #define Default_Kp 0.2
- #define Default_Ki 10
- #define Default_Kd 0.015
+//  #define Default_Kp 0.2
+//  #define Default_Ki 10
+//  #define Default_Kd 0.015
+ #define Default_Kp 15
+ #define Default_Ki 0
+ #define Default_Kd 0
  
-
-
 #define Default_yaw_Kp 0
 #define Default_yaw_Ki 0
 #define Default_yaw_Kd 0
 
 
 // init throttle when armed, so it doesnt start weird
-#define INIT_THROTTLE 15
+#define INIT_THROTTLE 5
 
 static mpu9250 imu;
 static ESC esc;
@@ -73,7 +74,8 @@ static controller fc;
 static radio rdo;
 
 // control cycle timing
-#define dT_ms 20
+// #define dT_ms 50
+#define dT_ms 1
 #define dT_s dT_ms / 1000.0
 
 volatile int buffer_index = 0;

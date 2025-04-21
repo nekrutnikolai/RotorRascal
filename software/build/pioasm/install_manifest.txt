@@ -1,0 +1,5 @@
+/Users/nekrutnikolai/git/RotorRascal/software/build/pioasm-install/pioasm/pioasm
+/Users/nekrutnikolai/git/RotorRascal/software/build/pioasm-install/pioasm/pioasmTargets.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/pioasm-install/pioasm/pioasmConfig.cmake
+/Users/nekrutnikolai/git/RotorRascal/software/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
