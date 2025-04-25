@@ -1,7 +1,5 @@
 # Hashes of file build rules.
 aa1c135bc58433997c170c05c9f1d326 CMakeFiles/binary_data
 2302d5879047ef40748e9bc0452ffc67 flash_id_bin.h
-458667c1fd4931fb5971165babf15522 lib/mbedtls/CMakeFiles/apidoc
-995f27e5d03a791391f23b33c5abd15c lib/mbedtls/library/CMakeFiles/lib
 81935db572aae2e1124ed635ff4c727a rp2350.rom.h
 588c838085451669aa0c299351a625f9 xip_ram_perms_elf.h

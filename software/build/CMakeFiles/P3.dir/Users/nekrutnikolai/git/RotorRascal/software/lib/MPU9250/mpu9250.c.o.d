@@ -73,6 +73,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/RotorRascal/software/lib/MPU9250/mpu92
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \

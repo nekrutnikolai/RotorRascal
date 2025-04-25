@@ -460,6 +460,438 @@ Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.o: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.i: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.s: Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s
+
 Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.o: Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.o
 
@@ -1644,6 +2076,30 @@ Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_r
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.o
 
@@ -1988,6 +2444,78 @@ Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3.dir/build.make CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
 Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
@@ -2082,6 +2610,60 @@ help:
 	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/common/hardware_claim/claim.s"
@@ -2230,6 +2812,9 @@ help:
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.o"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -2273,6 +2858,15 @@ help:
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"

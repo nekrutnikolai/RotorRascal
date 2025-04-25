@@ -64,4 +64,5 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio/std
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

@@ -929,80 +929,52 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uar
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/P3.dir/flags.make
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/P3.dir/flags.make
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/P3.dir/flags.make
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/P3.dir/flags.make
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/P3.dir/flags.make
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1016,7 +988,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1030,7 +1002,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1041,10 +1013,346 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/P3.dir/flags.make
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/P3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -1058,7 +1366,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_dri
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -1072,7 +1380,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -1086,7 +1394,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_st
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -1100,7 +1408,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_lw
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -1114,7 +1422,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ct
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -1128,7 +1436,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_dri
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -1142,7 +1450,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_dri
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1156,7 +1464,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pio/p
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1170,7 +1478,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_dma/d
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1184,7 +1492,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_excep
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -1198,7 +1506,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_dri
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -1212,7 +1520,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_con
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/P3.dir/flags.make
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/P3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1287,14 +1595,36 @@ P3_OBJECTS = \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o" \
-"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
-"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
-"CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o" \
 "CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o" \
@@ -1374,14 +1704,36 @@ P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_c
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/tusb.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
 P3.elf: CMakeFiles/P3.dir/Users/nekrutnikolai/git/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
@@ -1399,7 +1751,7 @@ P3.elf: CMakeFiles/P3.dir/build.make
 P3.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 P3.elf: /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 P3.elf: CMakeFiles/P3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable P3.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nekrutnikolai/git/RotorRascal/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking CXX executable P3.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/P3.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objdump -h /Users/nekrutnikolai/git/RotorRascal/software/build/P3.elf > P3.dis
 	/opt/homebrew/bin/arm-none-eabi-objdump -d /Users/nekrutnikolai/git/RotorRascal/software/build/P3.elf >> P3.dis

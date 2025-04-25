@@ -162,7 +162,7 @@ void update_u(controller *my_controller, float w[VECTOR_SIZE])
   my_controller->u.t4 = -roll_term - pitch_term + yaw_term;
 
   // Saturate the final motor commands
-  saturate_control(&my_controller->u, 10);
+  saturate_control(&my_controller->u, 1000.0); // Assuming a max throttle of 1000.0f
 }
 
 // void update_u(controller *my_controller, float w[VECTOR_SIZE])

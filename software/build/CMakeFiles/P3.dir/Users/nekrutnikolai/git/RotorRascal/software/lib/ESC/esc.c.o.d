@@ -74,6 +74,7 @@ CMakeFiles/P3.dir/Users/nekrutnikolai/git/RotorRascal/software/lib/ESC/esc.c.o: 
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \

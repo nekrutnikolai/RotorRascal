@@ -12,7 +12,7 @@ pico_sdk_init()
 
 add_executable(P3)
 
-pico_enable_stdio_usb(P3 0)
+pico_enable_stdio_usb(P3 1)
 pico_enable_stdio_uart(P3 1)
 
 # add_compile_options(-Ofast)

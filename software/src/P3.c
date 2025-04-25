@@ -47,13 +47,13 @@
 #define RADIO_TX 8
 #define RADIO_RX 9
 
-// controller
-//  #define Default_Kp 0.2
-//  #define Default_Ki 10
-//  #define Default_Kd 0.015
- #define Default_Kp 15
- #define Default_Ki 0
- #define Default_Kd 0
+
+// #define Default_Kp 0.2
+// #define Default_Ki 10
+// #define Default_Kd 0.015
+#define Default_Kp 15
+#define Default_Ki 0
+#define Default_Kd 0
  
 #define Default_yaw_Kp 0
 #define Default_yaw_Ki 0
@@ -61,7 +61,7 @@
 
 
 // init throttle when armed, so it doesnt start weird
-#define INIT_THROTTLE 5
+#define INIT_THROTTLE 5.0
 
 static mpu9250 imu;
 static ESC esc;
@@ -237,10 +237,24 @@ int main()
 
     if (rdo.controller_armed)
     {
-      motor_control(&esc, INIT_THROTTLE + rdo.throttle + fc.u.t1, 1);
-      motor_control(&esc, INIT_THROTTLE + rdo.throttle + fc.u.t2, 2);
-      motor_control(&esc, INIT_THROTTLE + rdo.throttle + fc.u.t3, 3);
-      motor_control(&esc, INIT_THROTTLE + rdo.throttle + fc.u.t4, 4);
+      float motor1_throttle = INIT_THROTTLE + rdo.throttle * ((100.0 - INIT_THROTTLE)/100.0) + fc.u.t1 / 10.0;
+      motor1_throttle = saturate(motor1_throttle, INIT_THROTTLE, 100.0);
+
+      float motor2_throttle = INIT_THROTTLE + rdo.throttle * ((100.0 - INIT_THROTTLE)/100.0) + fc.u.t2 / 10.0;
+      motor2_throttle = saturate(motor2_throttle, INIT_THROTTLE, 100.0);
+
+      float motor3_throttle = INIT_THROTTLE + rdo.throttle * ((100.0 - INIT_THROTTLE)/100.0) + fc.u.t3 / 10.0;
+      motor3_throttle = saturate(motor3_throttle, INIT_THROTTLE, 100.0);
+
+      float motor4_throttle = INIT_THROTTLE + rdo.throttle * ((100.0 - INIT_THROTTLE)/100.0) + fc.u.t4 / 10.0;
+      motor4_throttle = saturate(motor4_throttle, INIT_THROTTLE, 100.0);
+
+      // printf("motor1_throttle:%.3f, motor2_throttle:%.3f, motor3_throttle:%.3f, motor4_throttle:%.3f\n", motor1_throttle, motor2_throttle, motor3_throttle, motor4_throttle);
+
+      motor_control(&esc, motor1_throttle, 1);
+      motor_control(&esc, motor2_throttle, 2);
+      motor_control(&esc, motor3_throttle, 3);
+      motor_control(&esc, motor4_throttle, 4);
       
     }
     else
