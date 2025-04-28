@@ -123,21 +123,32 @@ void PD_handler()
       {
         buffer[buffer_index] = '\0'; // Null-terminate the string
 
-        // Check if the input is for kp
+        // Check if the input is for roll/pitch PID
         if (strncmp(buffer, "kp=", 3) == 0)
         {
-          fc.Kp = atof(buffer + 3); // Convert the string to a number and assign to kp
+          fc.Kp = atof(buffer + 3); // Convert the string to a number and assign to Kp
         }
-
-        // Check if the input is for ki
-        if (strncmp(buffer, "ki=", 3) == 0)
+        else if (strncmp(buffer, "ki=", 3) == 0)
         {
-          fc.Ki = atof(buffer + 3); // Convert the string to a number and assign to kp
+          fc.Ki = atof(buffer + 3); // Convert the string to a number and assign to Ki
         }
-        // Check if the input is for kd
         else if (strncmp(buffer, "kd=", 3) == 0)
         {
-          fc.Kd = atof(buffer + 3); // Convert the string to a number and assign to kd
+          fc.Kd = atof(buffer + 3); // Convert the string to a number and assign to Kd
+        }
+
+        // Check if the input is for yaw PID
+        else if (strncmp(buffer, "yaw_kp=", 7) == 0)
+        {
+          fc.yaw_Kp = atof(buffer + 7); // Convert the string to a number and assign to yaw_Kp
+        }
+        else if (strncmp(buffer, "yaw_ki=", 7) == 0)
+        {
+          fc.yaw_Ki = atof(buffer + 7); // Convert the string to a number and assign to yaw_Ki
+        }
+        else if (strncmp(buffer, "yaw_kd=", 7) == 0)
+        {
+          fc.yaw_Kd = atof(buffer + 7); // Convert the string to a number and assign to yaw_Kd
         }
 
         buffer_index = 0; // Reset the buffer index
