@@ -37,9 +37,9 @@
 #define RADIO_RX 9
 
 // PID Defaults
-#define Default_Kp 15
-#define Default_Ki 0
-#define Default_Kd 0
+#define Default_Kp 20
+#define Default_Ki 2
+#define Default_Kd 1.5
 
 #define Default_yaw_Kp 0
 #define Default_yaw_Ki 0
@@ -66,37 +66,47 @@ int serial_buffer_index = 0;
 void print_pid_values() {
     printf("Current PID values:\n");
     printf("Kp = %.3f, Ki = %.3f, Kd = %.3f\n", fc.Kp, fc.Ki, fc.Kd);
+    printf("Kp_yaw = %.3f, Ki_yaw = %.3f, Kd_yaw = %.3f\n", fc.Kp_yaw, fc.Ki_yaw, fc.Kd_yaw);
 }
 
 void handle_serial_input() {
-    int c;
-    while ((c = getchar_timeout_us(0)) != PICO_ERROR_TIMEOUT) {
-        if (c == '\n' || c == '\r') {
-            if (serial_buffer_index > 0) {
-                serial_buffer[serial_buffer_index] = '\0';
+  int c;
+  while ((c = getchar_timeout_us(0)) != PICO_ERROR_TIMEOUT) {
+    if (c == '\n' || c == '\r') {
+      if (serial_buffer_index > 0) {
+        serial_buffer[serial_buffer_index] = '\0';
 
-                if (strncmp(serial_buffer, "kp=", 3) == 0) {
-                    fc.Kp = atof(serial_buffer + 3);
-                    printf("Updated Kp to %.3f\n", fc.Kp);
-                } else if (strncmp(serial_buffer, "ki=", 3) == 0) {
-                    fc.Ki = atof(serial_buffer + 3);
-                    printf("Updated Ki to %.3f\n", fc.Ki);
-                } else if (strncmp(serial_buffer, "kd=", 3) == 0) {
-                    fc.Kd = atof(serial_buffer + 3);
-                    printf("Updated Kd to %.3f\n", fc.Kd);
-                } else {
-                    printf("Invalid command. Use 'kp=<value>', 'ki=<value>', or 'kd=<value>'.\n");
-                }
-                print_pid_values();
-                serial_buffer_index = 0;
-                new_input = true;
-            }
+        if (strncmp(serial_buffer, "kp=", 3) == 0) {
+          fc.Kp = atof(serial_buffer + 3);
+          printf("Updated Kp to %.3f\n", fc.Kp);
+        } else if (strncmp(serial_buffer, "ki=", 3) == 0) {
+          fc.Ki = atof(serial_buffer + 3);
+          printf("Updated Ki to %.3f\n", fc.Ki);
+        } else if (strncmp(serial_buffer, "kd=", 3) == 0) {
+          fc.Kd = atof(serial_buffer + 3);
+          printf("Updated Kd to %.3f\n", fc.Kd);
+        } else if (strncmp(serial_buffer, "kp_yaw=", 7) == 0) {
+          fc.Kp_yaw = atof(serial_buffer + 7);
+          printf("Updated Kp_yaw to %.3f\n", fc.Kp_yaw);
+        } else if (strncmp(serial_buffer, "ki_yaw=", 7) == 0) {
+          fc.Ki_yaw = atof(serial_buffer + 7);
+          printf("Updated Ki_yaw to %.3f\n", fc.Ki_yaw);
+        } else if (strncmp(serial_buffer, "kd_yaw=", 7) == 0) {
+          fc.Kd_yaw = atof(serial_buffer + 7);
+          printf("Updated Kd_yaw to %.3f\n", fc.Kd_yaw);
         } else {
-            if (serial_buffer_index < sizeof(serial_buffer) - 1) {
-                serial_buffer[serial_buffer_index++] = (char)c;
-            }
+          printf("Invalid command. Use 'kp=<value>', 'ki=<value>', 'kd=<value>', 'kp_yaw=<value>', 'ki_yaw=<value>', or 'kd_yaw=<value>'.\n");
         }
+        print_pid_values();
+        serial_buffer_index = 0;
+        new_input = true;
+      }
+    } else {
+      if (serial_buffer_index < sizeof(serial_buffer) - 1) {
+        serial_buffer[serial_buffer_index++] = (char)c;
+      }
     }
+  }
 }
 
 int main() {
