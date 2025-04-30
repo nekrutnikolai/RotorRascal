@@ -79,10 +79,15 @@ CMakeFiles/P3.dir/P3.c.o: \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /Users/nekrutnikolai/git/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
  /Users/nekrutnikolai/git/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /Users/nekrutnikolai/git/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /Users/nekrutnikolai/git/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
  /Users/nekrutnikolai/git/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /Users/nekrutnikolai/git/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
  /Users/nekrutnikolai/git/RotorRascal/software/src/../lib/MPU9250/mpu9250.h \
  /Users/nekrutnikolai/git/RotorRascal/software/src/../lib/ESC/esc.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \

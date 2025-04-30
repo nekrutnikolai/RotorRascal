@@ -131,9 +131,23 @@ void update_u(controller *my_controller, float w[VECTOR_SIZE])
   state d_error = make_state(-w[0], -w[1], -w[2]);
 
   // Integrate error
-  my_controller->integral_error = get_state_multi(error, my_controller->dT);
-  my_controller->integral_error = get_state_saturate(my_controller->integral_error, -Integral_error_sat, Integral_error_sat);
+  // my_controller->integral_error = get_state_multi(error, my_controller->dT);
+  // my_controller->integral_error = get_state_saturate(my_controller->integral_error, -Integral_error_sat, Integral_error_sat);
+  // 1) compute this‐step increment
+  state delta = get_state_multi(error, my_controller->dT);
 
+  // 2) accumulate onto the previous integral
+  my_controller->integral_error = get_state_sum(
+      my_controller->integral_error,
+      delta
+  );
+
+  // 3) clamp to avoid windup
+  my_controller->integral_error = get_state_saturate(
+      my_controller->integral_error,
+      -Integral_error_sat,
+      +Integral_error_sat
+  );  
   // Save for next loop
   my_controller->prev_error = error;
 
@@ -153,7 +167,7 @@ void update_u(controller *my_controller, float w[VECTOR_SIZE])
   float yaw_P = my_controller->Kp_yaw * error.yaw;
   float yaw_I = my_controller->Ki_yaw * my_controller->integral_error.yaw;
   float yaw_D = my_controller->Kd_yaw * d_error.yaw;
-  float yaw_term = yaw_P + yaw_I + yaw_D;
+  float yaw_term = -(yaw_P + yaw_I + yaw_D);
 
   // Combine all control terms into each motor using full motor mixing
   my_controller->u.t1 = roll_term + pitch_term + yaw_term;
@@ -165,66 +179,7 @@ void update_u(controller *my_controller, float w[VECTOR_SIZE])
   saturate_control(&my_controller->u, 1000.0); // Assuming a max throttle of 1000.0f
 }
 
-// void update_u(controller *my_controller, float w[VECTOR_SIZE])
-// {
-//   state error = get_state_error(my_controller->x, my_controller->target);
-//   // can just use gyro data here or state error
-//   // state d_error = get_state_error(my_controller->prev_error, error);
 
-//   // use gyro
-//   state d_error = make_state(-w[0], -w[1], -w[2]);
-
-//   my_controller->integral_error = (my_controller->integral_error, get_state_multi(error, my_controller->dT));
-//   my_controller->integral_error = get_state_saturate(my_controller->integral_error, -Integral_error_sat, Integral_error_sat);
-
-//   // if we use state error not gyro
-//   my_controller->prev_error = error;
-
-//   float motor1 = 0.0f;
-//   float motor2 = 0.0f;
-//   float motor3 = 0.0f;
-//   float motor4 = 0.0f;
-//   // Roll
-//   float roll_P = my_controller->Kp * (error.roll);
-//   float roll_I = my_controller->Ki * (my_controller->integral_error.roll);
-//   float roll_D = my_controller->Kd * (d_error.roll);
-
-//   motor3 += -roll_P - roll_I - roll_D;
-//   motor4 += -roll_P - roll_I - roll_D;
-
-//   motor1 += roll_P + roll_I + roll_D;
-//   motor2 += roll_P + roll_I + roll_D;
-
-//   // Pitch
-//   float pitch_P = my_controller->Kp * (error.pitch);
-//   float pitch_I = my_controller->Ki * (my_controller->integral_error.pitch);
-//   float pitch_D = my_controller->Kd * (d_error.pitch);
-
-//   motor2 += -pitch_P - pitch_I - pitch_D;
-//   motor4 += -pitch_P - pitch_I - pitch_D;
-
-//   motor1 += pitch_P + pitch_I + pitch_D;
-//   motor3 += pitch_P + pitch_I + pitch_D;
-
-//   // yaw
-//   float yaw_P = my_controller->Kp_yaw * (error.yaw);
-//   float yaw_I = my_controller->Ki_yaw * (my_controller->integral_error.yaw);
-//   float yaw_D = my_controller->Kd_yaw * (d_error.yaw);
-
-//   motor2 += -yaw_P - yaw_I - yaw_D;
-//   motor3 += -yaw_P - yaw_I - yaw_D;
-
-//   motor1 += yaw_P + yaw_I + yaw_D;
-//   motor4 += yaw_P + yaw_I + yaw_D;
-
-//   my_controller->u.t1 = motor1;
-//   my_controller->u.t2 = motor2;
-//   my_controller->u.t3 = motor3;
-//   my_controller->u.t4 = motor4;
-
-//   // saturate the control to [-cap, cap]
-//   saturate_control(&my_controller->u, 10);
-// }
 
 void update_filter(controller *my_controller, float w[VECTOR_SIZE], float a[VECTOR_SIZE])
 {
