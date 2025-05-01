@@ -162,6 +162,10 @@ int main() {
     arm_motor(&esc);
     printf("Done.\n");
 
+    // leaky_init(&w_filter, 0.9f);
+    // leaky_init(&a_filter, 0.9f);
+    // init_controller(&fc, 0.99f, dT_s, Default_Kp, Default_Ki, Default_Kd, Default_yaw_Kp, Default_yaw_Ki, Default_yaw_Kd);
+
     leaky_init(&w_filter, 0.9f);
     leaky_init(&a_filter, 0.9f);
     init_controller(&fc, 0.99f, dT_s, Default_Kp, Default_Ki, Default_Kd, Default_yaw_Kp, Default_yaw_Ki, Default_yaw_Kd);
