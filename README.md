@@ -41,7 +41,16 @@ Build the project
     The long-term objective of this project is to support the integration of these Pico-based drones made from 3D printed components into ECE and MAE courses. For instance, these drones could be integrated in the ECE microcontrollers curriculum and the students could work on code developing/tuning a PID controller. Or, for a MAE dynamics course, the students could use these drones for dynamics modelling.
 
 - background math
+    The effects of a $P$, $I$ and $D$ terms are well know. If we think of controlling the mass in a spring-mass-dashpot system, the $P$ term acts like increasing the stiffness of the spring, whereas the $D$ term effectively adds damping to the system. An $I$ term in general achieves the desirable porperty of having zero steady state. 
+
+    Even though our system is not a spring-mass-dashpot system, we can still keep in mind the above intuitive properties of each of the three terms of a PID controller. 
     
+    We ended up using the same set of three $P$, $I$, $D$ coefficients for controlling the pitch and the roll angle, and a different set of three $P$, $I$, $D$ coefficients for the yaw angle. Therefore, $6$ in total.
+
+    We did not do any modelling of the drone ("plant") dynamics, and did the tuning by trial and error. With more time, we would obtain the quations of motion and linearize about the desired hover postion. We would get a linear set of equations, keeping in mind that we should include . There would be two approaches: either design the controller using the state-space approach, or frequency design. 
+    
+    
+       
 
 - logical structure
     1. Initialize radio and sensors
@@ -53,28 +62,30 @@ Build the project
     6. Continue executing PID loop until disarm
 
 <p align="center">
-    <img width="600" alt="Drone" src="figs/DroneFlowChart.jpeg">
+    <img width="600" alt="DroneChart" src="figs/DroneFlowChart.jpeg">
 </p>
 
 - hardware/software tradeoffs
-    **PID loop speed:** Since the drone is a complicated, unstable system with 4 motors and 6 degrees of freedom, it is vital to have a fast control loop. From our testing and with lab 3, we found a value of 1kHz to work well. Compared to lab 3, we need to be computing the PID terms for 3 axes as opposed to a single PID axis. 
+    **PID loop speed:** Since the drone is a complicated, unstable system with 4 motors and 6 degrees of freedom, it is vital to have a fast control loop. From our testing and with lab 3, we found a value of 1kHz to work well. Compared to lab 3, we need to be computing the PID terms for 3 axes as opposed to a single PID axis. Those three axes are pitch, roll, and yaw. Pitch and roll have the same PID parameters and yaw has different PID parameters that will be discussed later in this section. 
 
-    **Pico W:** The Pico W was used to allow future expansion of wireless capabilites. Future work could involve developing a web server that hosts an interactive PID tuning interface where students in courses could drag sliders and 
+    **Pico W:** The Pico W was used to allow future expansion of wireless capabilites. Future work could involve developing a web server that hosts an interactive PID tuning interface where students in courses could drag sliders and visualize the gyro output and controller output to see the performance of the PID developed or the drone modelled.
 
-    **Controlling 4 Motors:** The PWM needs to be computed for each of the 4 motors, which takes more time to calculate.
+    **Controlling 4 Motors:** The PWM needs to be computed for each of the 4 motors, as opposed to a single axis like in lab 3, which takes more time to compute. This point is combined with the previous point made above, leading to significantly more computation involved. Essentially, 6 (PID terms) x 3 (axes) x 4 (motors) = 64 times the amount of computation relative to lab 3 since that lab had 1 axis and 1 motor. Additionally, changing the motor output has effects on the physical system, where changing the motor speed induces a torque on the drone, affecting the yaw axis, which will be discussed in the next section.
 
-    **Yaw Compensation:**
+    **Yaw Compensation:** Since the drone is a physical system, we had to take into account physics for our software development and development. The quick and dirty solution that we came up with was having different PID weights for the yaw axis as opposed to the pitch and roll axes. For instance, the D term had to be greatly reduced as so the yaw compensation would not fight the other axes and enter an unstable jittery mess.
 
-    **Long-Term Gyro Drift:** calibrating gyro upon power-up. 
+    **Long-Term Gyro Drift:** Gyro drift could have an effect on the longer-term characteristics in the minute to hour timescales. This is not much of a concern, however, as the drone only has battery life for 5 minutes at most due to the extreme power draw of 
 
 - Discuss existing patents, copyrights, and trademarks which are relevant to your project.
     There are no existing patents, copyrights, and trademarks which are relevant to our project.
 
 ### Program/hardware design
 - program details. What parts were tricky to write?
-
-- hardware details. Could someone else build this based on what you have written?
+    The skeleton of code we started from was unnecessarily complicated, so our biggest challenge was discovering how the actual control algorithms and peripheral interfaces were implemented. The code for the radio interface was reverse-engineered based on the serial string received from the controller. Although that was straightforward, it was far less straightforward to implement pitch, roll, and yaw control from the controller to the rest of the code. Hence, we stuck with throttle and arm only. From there, we scrapped his PID control as it was unfinished and did not work and wrote our own. This has its own challenges as we are implementing it on a quadcopter with four motors. One really important thing that we realized early was that the physical model for how yaw is controlled is extremely different from how pitch and roll is controlled. This means we needed separate coefficients for yaw PID and pitch/roll PID.  To implement this, we simply compute the PID values, then apply the coefficients separately in the motor mixing calculations. 
+  
+- Hardward Details -- Could someone else build this based on what you have written?
     - Make this into a build guide!
+    - This is already developed. 
 - Be sure to specifically reference any design or code you used from someone else.
     - Add sources from the drone squad. 
 - Things you tried which did not work
