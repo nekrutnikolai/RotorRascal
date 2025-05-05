@@ -41,15 +41,16 @@ Build the project
     The long-term objective of this project is to support the integration of these Pico-based drones made from 3D printed components into ECE and MAE courses. For instance, these drones could be integrated in the ECE microcontrollers curriculum and the students could work on code developing/tuning a PID controller. Or, for a MAE dynamics course, the students could use these drones for dynamics modelling.
 
 - background math
+
     The effects of a $P$, $I$ and $D$ terms are well know. If we think of controlling the mass in a spring-mass-dashpot system, the $P$ term acts like increasing the stiffness of the spring, whereas the $D$ term effectively adds damping to the system. An $I$ term in general achieves the desirable porperty of having zero steady state. 
 
     Even though our system is not a spring-mass-dashpot system, we can still keep in mind the above intuitive properties of each of the three terms of a PID controller. 
     
     We ended up using the same set of three $P$, $I$, $D$ coefficients for controlling the pitch and the roll angle, and a different set of three $P$, $I$, $D$ coefficients for the yaw angle. Therefore, $6$ in total.
 
-    We did not do any modelling of the drone ("plant") dynamics, and did the tuning by trial and error. With more time, we would obtain the quations of motion and linearize about the desired hover postion. We would get a linear set of equations, keeping in mind that we should include . There would be two approaches: either design the controller using the state-space approach, or frequency design. 
+    We did not do any modelling of the drone ("plant") dynamics, and did the tuning by trial and error. With more time, we would obtain the quations of motion and linearize about the desired hover position. We would get a linear set of equations, keeping in mind that we should include . There would be two approaches: either design the controller using the state-space approach, or frequency design. 
     
-    
+    If we chose the state-space approach, 
        
 
 - logical structure
@@ -74,7 +75,7 @@ Build the project
 
     **Yaw Compensation:** Since the drone is a physical system, we had to take into account physics for our software development and development. The quick and dirty solution that we came up with was having different PID weights for the yaw axis as opposed to the pitch and roll axes. For instance, the D term had to be greatly reduced as so the yaw compensation would not fight the other axes and enter an unstable jittery mess.
 
-    **Long-Term Gyro Drift:** Gyro drift could have an effect on the longer-term characteristics in the minute to hour timescales. This is not much of a concern, however, as the drone only has battery life for 5 minutes at most due to the extreme power draw of 
+    **Long-Term Gyro Drift:** Gyro drift could have an effect on the longer-term characteristics in the minute to hour timescales. This is not much of a concern, however, as the drone only has battery life for 5 minutes at most due to the extreme power draw of flight. We implemented the gyro to calibrate everytime a battery is plugged in, so setting 
 
 - Discuss existing patents, copyrights, and trademarks which are relevant to your project.
     There are no existing patents, copyrights, and trademarks which are relevant to our project.
@@ -86,6 +87,7 @@ Build the project
 - Hardward Details -- Could someone else build this based on what you have written?
     - Make this into a build guide!
     - This is already developed. 
+    - Add bill of materials
 - Be sure to specifically reference any design or code you used from someone else.
     - Add sources from the drone squad. 
 - Things you tried which did not work
