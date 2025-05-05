@@ -1,7 +1,7 @@
 For the build guide, documentation, and more, please check out our [Wiki page](https://github.com/cornellmotionstudio/JacksonDronev2/wiki).
 
 <p align="center">
-<img width="800" alt="Drone" src="figs/drone.jpeg">
+<img width="600" alt="Drone" src="figs/drone.jpeg">
 </p>
 
 # Getting Started
