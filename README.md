@@ -63,7 +63,7 @@ Build the project
     6. Continue executing PID loop until disarm
 
 <p align="center">
-    <img width="600" alt="DroneChart" src="figs/DroneFlowChart.jpg">
+    <img width="600" alt="DroneChart" src="figs/DroneFlowChart.png">
 </p>
 
 - hardware/software tradeoffs
