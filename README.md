@@ -50,12 +50,16 @@ Build the project
     4. Wait for arm signal from controller
         1. Erase all store PID values -- effectively reset controls
     5. Spin up motors to minimum throttle and begin executing PID loop
-    6. Continue 
+    6. Continue executing PID loop until disarm
+
+<p align="center">
+    <img width="600" alt="Drone" src="figs/DroneFlowChart.jpeg">
+</p>
 
 - hardware/software tradeoffs
     **PID loop speed:** Since the drone is a complicated, unstable system with 4 motors and 6 degrees of freedom, it is vital to have a fast control loop. From our testing and with lab 3, we found a value of 1kHz to work well. Compared to lab 3, we need to be computing the PID terms for 3 axes as opposed to a single PID axis. 
 
-    **Pico W:** The Pico W was used to allow future expansion of capabilities
+    **Pico W:** The Pico W was used to allow future expansion of wireless capabilites. Future work could involve developing a web server that hosts an interactive PID tuning interface where students in courses could drag sliders and 
 
     **Controlling 4 Motors:** The PWM needs to be computed for each of the 4 motors, which takes more time to calculate.
 
