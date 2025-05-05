@@ -30,6 +30,9 @@ Build the project
 
 ### High level design
 - Rationale and sources of your project idea
+
+The rationale of this math $asd$
+
 - background math
 - logical structure
 - hardware/software tradeoffs
@@ -59,21 +62,8 @@ Build the project
     - Are there patent opportunites for your project?
 
 ### Appendix A (permissions)
--  Project on the course page
-    - You may optionally opt-in for inclusion of your project on the course page.
-    - This a new CORNELL requirement!
-    - You will automatically lose 5 points on your project if you do not include this!
-    - One of the two sentences shown below:
-        - "The group approves this report for inclusion on the course website."
-        - "The group does not approve this report for inclusion on the course website."
-    - If you will ever be asking me for a recommendation, I suggest that you opt-in your project. The project web pages help me remember the details of a project and person.
-- Project on the course YouTube channel
-    - I will submit student videos to YouTube for inclusion on the ece4760 channel, if you opt-in.
-    - This a new CORNELL requirement!
-    - You will automatically lose 5 points on your project if you do not include this!
-    - One of two sentences shown below:
-        - "The group approves the video for inclusion on the course youtube channel."
-        - "The group does not approve the video for inclusion on the course youtube channel."
+- "The group approves this report for inclusion on the course website."
+- "The group approves the video for inclusion on the course youtube channel."
 
 ### Additional appendices
 - Appendix with commented Verilog and/or program listings.
@@ -83,6 +73,4 @@ Build the project
     - Data sheets
     - Vendor sites
     - Code/designs borrowed from others
-    - Background sites/paper
-
-
+    - Background sites/paper 
