@@ -82,15 +82,47 @@ Build the project
 
 ### Program/hardware design
 - program details. What parts were tricky to write?
-    The skeleton of code we started from was unnecessarily complicated, so our biggest challenge was discovering how the actual control algorithms and peripheral interfaces were implemented. The code for the radio interface was reverse-engineered based on the serial string received from the controller. Although that was straightforward, it was far less straightforward to implement pitch, roll, and yaw control from the controller to the rest of the code. Hence, we stuck with throttle and arm only. From there, we scrapped his PID control as it was unfinished and did not work and wrote our own. This has its own challenges as we are implementing it on a quadcopter with four motors. One really important thing that we realized early was that the physical model for how yaw is controlled is extremely different from how pitch and roll is controlled. This means we needed separate coefficients for yaw PID and pitch/roll PID.  To implement this, we simply compute the PID values, then apply the coefficients separately in the motor mixing calculations. 
+    The skeleton of code we started from was unnecessarily complicated, so our biggest challenge was discovering how the actual control algorithms and peripheral interfaces were implemented. The code for the radio interface was reverse-engineered based on the serial string received from the controller. Although that was straightforward, it was far less straightforward to implement pitch, roll, and yaw control from the controller to the rest of the code. Hence, we stuck with throttle and arm only. From there, we scrapped his PID control as it was unfinished and did not work and wrote our own. This has its own challenges as we are implementing it on a quadcopter with four motors. One really important thing that we realized early was that the physical model for how yaw is controlled is extremely different from how pitch and roll is controlled. This means we needed separate coefficients for yaw PID and pitch/roll PID. To implement this, we simply compute the PID values, then apply the coefficients separately in the motor mixing calculations. 
   
-- Hardward Details -- Could someone else build this based on what you have written?
+- Hardware details -- Could someone else build this based on what you have written?
+
+> Insert image of labelled diagram showcasing components
+
+<p align="center">
+    <img width="600" alt="DroneChart" src="figs/DroneFlowChart.png">
+</p>
+
+Since drones out of the same parts 
+
     - Make this into a build guide!
-    - This is already developed. 
+    - This is already developed
     - Add bill of materials
+
+Table 1: Drone components (UPDATE)
+
+| **Component**         | **Part Description**                                        | **Estimated Price**     |
+|------------------------|-------------------------------------------------------------|--------------------------|
+| **Frame**              | 5" carbon fiber frame for freestyle or racing              | $30–$70                  |
+| **Motors**             | 2207 or 2306 brushless motors, 1700–2500KV                 | $15–$30 each             |
+| **ESC (4-in-1)**       | 4-in-1 ESC, 30–60A, DShot600 support                        | $40–$80                  |
+| **Propellers**         | 5" tri-blade props (e.g., 5x4.3x3)                          | $3–$6 per set            |
+| **Radio Receiver (Rx)**| ELRS, Crossfire, or FrSky protocol receiver                | $15–$30                  |
+| **Battery**            | 4S or 6S LiPo, 1300–1800mAh                                 | $25–$50                  |
+| **Transmitter (Tx)**   | RC controller (e.g., Radiomaster, Tango 2)                 | $100–$250                |
+
+Table 2: Drone accessories (UPDATE)
+
+| **Component**         | **Part Description**                                        | **Estimated Price**     |
+|------------------------|-------------------------------------------------------------|--------------------------|
+| **Transmitter (Tx)**   | RC controller (e.g., Radiomaster TX16S, TBS Tango 2)       | $100–$250                |
+| **Battery Charger**    | LiPo balance charger (AC/DC or DC only)                    | $40–$100                 |
+| **Batteries**          | 4S or 6S LiPo, 1300–1800mAh, for flight power              | $25–$50 each             |
+
 - Be sure to specifically reference any design or code you used from someone else.
-    - Add sources from the drone squad. 
-- Things you tried which did not work
+    
+    We referenced the design and code found at the following repository: https://github.com/cornellmotionstudio/JacksonDronev2
+
+### Tuning the drone PID's
 
 ### Results of the design
 - Any and all test data, scope traces, waveforms, etc
