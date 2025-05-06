@@ -144,9 +144,9 @@ Table 2: Drone accessories (UPDATE)
 
 ### Appendix A (permissions)
 
-The group approves this report for inclusion on the course website
+The group **approves** this report for inclusion on the course website.
 
-The group approves the video for inclusion on the course youtube channel
+The group **approves** the video for inclusion on the course youtube channel.
 
 ### Additional appendices
 - Appendix with commented Verilog and/or program listings.
