@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>RotoRascals Drone</title>
+	<title>RotorRascals Drone</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,9 +18,9 @@
 	<!-- Header -->
 	<section id="header">
 		<header>
-			<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-			<h1 id="logo"><a href="#">Bryan P, Nikolai N, Martin K</a></h1>
-			<p>A final project for ECE 5730</p>
+			<span class="image avatar"><img src="images/rotorrascalavatar.png" alt="" /></span>
+			<h1 id="logo"><a href="#">RotorRascals Drone</a></h1>
+			<p>A final project for ECE 5730 by Bryan P, Nikolai N, Martin K</p>
 		</header>
 		<nav id="nav">
 			<ul>
@@ -62,8 +62,15 @@
 							with throttle input from a controller.
 						</p>
 					</header>
-					<p>We built a functional quadcopter system powered by a Raspberry Pi Pico, implementing a full
-						PID-based flight controller from scratch to enable stable hover on a custom gimbal stand. Our
+					<p><strong>Team Members:</strong>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/bryan-peters-0b68081b9/" target="_blank">Bryan Peters</a></li>
+							<li><a href="https://www.linkedin.com/in/nikolai-nekrutenko/" target="_blank">Nikolai Nekrutenko</a></li>
+							<li><a href="https://www.linkedin.com/in/martin-k-672217233/" target="_blank">Martin Kostal</a></li> <!-- Replace # with actual URL -->
+						</ul>
+					</p>
+					<p>A functional quadcopter system powered by a Raspberry Pi Pico, implementing a full
+						PID-based flight controller from scratch to enable stable hover on a custom gimbal stand was built. Our
 						goal was to design a hands-on, educational drone platform that could be integrated into ECE and
 						MAE course curricula, allowing students to work directly with embedded systems, control theory,
 						and dynamics. Starting from a partially developed hardware prototype and minimal software, we
@@ -71,6 +78,8 @@
 						radio-based throttle control. This project not only demonstrated our understanding of embedded
 						flight control, but also laid the groundwork for a low-cost, reproducible drone platform for
 						future student use.</p>
+
+					<!-- Team Links -->
 				</div>
 			</section>
 
@@ -80,7 +89,7 @@
 					<h3>High Level Design and Inspiration</h3>
 					<h4>Rationale and sources of your project idea</h4>
 					<p>
-						Bryan, Martin and I enjoy drones and quadcopters, we thought it would be a neat idea to develop
+						Bryan, Martin and Nikolai enjoy drones and quadcopters, we thought it would be a neat idea to develop
 						a somewhat functioning flight controller to control the drone with an onboard IMU for
 						orientation data, an external remote to set the throttle position, and an electronic speed
 						controller (ESC). <br />
@@ -99,13 +108,13 @@
 
 					<h4>Background Math</h4>
 
-					<p>The effects of a <i>P</i>, <i>I</i> and <i>D</i> terms are well know. If we think of controlling
-						the mass in a spring-mass-dashpot system, the <i>P</i> term acts like increasing the stiffness
+					<p>The effects of a <i>P</i>, <i>I</i> and <i>D</i> terms are well known. If we think of controlling
+						the mass in a spring-mass-damped system, the <i>P</i> term acts like increasing the stiffness
 						of the spring, whereas the <i>D</i> term effectively adds damping to the system. An <i>I</i>
 						term in general achieves the desirable property of having zero steady state.
 						<br />
 						<br />
-						Even though our system is not a spring-mass-dashpot system, we can still keep in mind the above
+						Even though our system is not a spring-mass-damped system, we can still keep in mind the above
 						intuitive properties of each of the three terms of a PID controller.
 
 						We ended up using the same set of three <i>P</i>, <i>I</i>, <i>D</i> coefficients for
@@ -155,7 +164,7 @@
 					<ul>
 						<li><strong>PID loop speed:</strong> Since the drone is a complicated, unstable system with
 							4&nbsp;motors and 6&nbsp;degrees of freedom, it is vital to have a fast control loop. From
-							our testing (and Lab&nbsp;3) we found a rate of <code>1&nbsp;kHz</code> works well. Unlike
+							our testing (and Lab&nbsp;3) we found a rate of 1&nbsp;kHz works well. Unlike
 							Lab&nbsp;3, we must compute PID terms for three axes—pitch, roll, and yaw. Pitch and roll
 							share the same PID parameters, while yaw uses different parameters discussed later in this
 							section.</li>
@@ -168,7 +177,7 @@
 						<li><strong>Controlling 4&nbsp;Motors:</strong> PWM signals must be calculated for all four
 							motors (versus a single motor in Lab&nbsp;3), which greatly increases compute time.
 							Combining this with multi-axis control means roughly
-							<code>6&nbsp;(PID&nbsp;terms) × 3&nbsp;(axes) × 4&nbsp;(motors) = 64</code> × more
+							6&nbsp;(PID&nbsp;terms) × 3&nbsp;(axes) × 4&nbsp;(motors) = 64 × more
 							computation than Lab&nbsp;3. Furthermore, changing any motor speed induces torque that
 							affects the yaw axis—covered in the next point.
 						</li>
@@ -179,7 +188,7 @@
 							oscillations.</li>
 
 						<li><strong>Long-Term Gyro Drift:</strong> Drift can affect behavior over minutes or hours.
-							Battery life is only ≈5&nbsp;minutes, so this is minor; nevertheless, the gyro recalibrates
+							Battery life is only ~ 5&nbsp;minutes, so this is minor; nevertheless, the gyro recalibrates
 							each time a battery is plugged in, ensuring reliable short-term attitude estimates.</li>
 					</ul>
 					</p>
@@ -195,10 +204,11 @@
 				<div class="container">
 					<h3>Program Design</h3>
 
-					<!-- <p style="text-align:center;">
+					<p style="text-align:center;">
 						<img src="figs/DroneFlowChart.png" alt="Drone Flow Chart"
-							style="max-width:600px; width:100%;" />
-					</p> -->
+							style="max-width:800px; width:100%;" />
+					</p>
+
 					<h4>Program Details</h4>
 					<p>The skeleton of code we started from was unnecessarily complicated, so our biggest challenge was
 						discovering how the actual control algorithms and peripheral interfaces were implemented. The
@@ -212,6 +222,33 @@
 						means we needed separate coefficients for yaw PID and pitch/roll PID. To implement this, we
 						simply compute the PID values, then apply the coefficients separately in the motor mixing
 						calculations. </p>
+
+						<p>
+The code has the following structure:</p>
+
+					<pre><code>├── main.c                     # Entry point, initializes hardware and control loop
+├── lib/
+│   ├── Control/
+│   │   ├── controller.c       # PID controller logic
+│   │   └── controller.h
+│   ├── ESC/
+│   │   ├── esc.c              # Motor PWM control
+│   │   └── esc.h
+│   ├── Filter/
+│   │   ├── leaky_LP.c         # Leaky low-pass filter
+│   │   └── leaky_LP.h
+│   ├── MPU9250/
+│   │   ├── mpu9250.c          # IMU driver
+│   │   └── mpu9250.h
+│   ├── Radio/
+│   │   ├── radio.c            # UART radio input parsing
+│   │   └── radio.h
+├── include/
+│   ├── config.h               # System-wide configuration macros
+│   └── pins.h                 # Pin definitions
+├── utils/
+│   └── math_utils.c/h         # Optional math helpers
+├── Makefile or CMakeLists     # Build system configuration</code></pre>
 				
 					<h3>3D-Printable Files</h3>
 					<ol>
@@ -323,6 +360,15 @@ cd RotorRascal/software
 						</tbody>
 					</table>
 
+					<h4>Be sure to specifically reference any design or code you used from someone else.</h4>
+
+					<p>
+					We referenced the design and code found at the following repository: 
+						<a href="https://github.com/cornellmotionstudio/JacksonDronev2" target="_blank">
+							https://github.com/cornellmotionstudio/JacksonDronev2
+						</a>
+					</p>
+
 				</div>
 			</section>
 
@@ -433,7 +479,7 @@ cd RotorRascal/software
 					<!-- Speed -->
 					<h4>Speed of Execution</h4>
 					<p>
-						The control loop runs at <strong><code>1&nbsp;kHz</code></strong>, a rate chosen for its
+						The control loop runs at 1&nbsp;kHz, a rate chosen for its
 						balance of stability and computational headroom on the Pico&nbsp;W. At this speed we
 						observed <em>no</em> hesitation, flicker, or perceptible latency; the drone responded
 						immediately to throttle changes and external disturbances.
@@ -567,7 +613,7 @@ cd RotorRascal/software
 						</li>
 			
 						<li><strong>Appendix&nbsp;&mdash; Schematics for External Hardware</strong><br>
-							(Drawn with ExpressPCB or similar.)
+							(Drawn with KiCad.)
 							<p style="text-align:center;">
 								<img src="figs/schematic.png"
 									 alt="Drone Schematic"
@@ -610,7 +656,7 @@ cd RotorRascal/software
 		<section id="footer">
 			<div class="container">
 				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
+					<li>&copy; RotorRascal. All rights reserved.</li>
 					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
